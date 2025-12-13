@@ -1,0 +1,7 @@
+Model,CV RMSE (Mean ± Std),Test RMSE (Mean ± Std),Test R² (Mean ± Std),Improvement vs Baseline
+Baseline (Mean),N/A,10.011 ± 0.328,-0.038 ± 0.037,0.00%
+Linear Regression,3.759 ± 0.049,3.780 ± 0.288,0.851 ± 0.023,62.24%
+Ridge,3.758 ± 0.050,3.779 ± 0.287,0.851 ± 0.023,62.25%
+Lasso,4.075 ± 0.070,3.779 ± 0.289,0.851 ± 0.023,62.25%
+Random Forest,3.150 ± 0.159,3.068 ± 0.330,0.902 ± 0.020,69.35%
+XGBoost,3.092 ± 0.064,2.728 ± 0.278,0.922 ± 0.015,72.75%
